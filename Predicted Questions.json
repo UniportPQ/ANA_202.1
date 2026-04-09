@@ -1,0 +1,1545 @@
+
+
+[
+  
+  {
+  "type": "pageInfo",
+  "kind": "subjective",
+  "course_title": "Histology",
+  "code": "ANA 202.1",
+  "session": "Predictions",
+  "topics": ["Past Questions"],
+  "time": "90"
+},
+{
+  "type": "Instruction",
+  "content": "Answer all Questions"
+},
+
+  {
+    "type": "heading",
+    "heading": "Section 1: Introduction to Histology & Basic Techniques"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": [
+      "Histology",
+      "Introduction",
+      "Tissue Types"
+    ],
+    "Question": {
+      "content": "Histology is best defined as the study of:",
+      "type": "OBJ",
+      "options": [
+        "Gross anatomy of organs",
+        "Tissues and their structure at the cellular and extracellular levels",
+        "Disease processes at the molecular level",
+        "Cell division and genetics"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>What is Histology?</h4>\n<p>The answer is <strong>B</strong>. The word \"histology\" comes from the Greek <em>histos</em> (tissue) + <em>logos</em> (study). It examines the <strong>microscopic structure</strong> of tissues — both the cells themselves and the extracellular material between them.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Why histology matters in medicine:</strong><br>\n• Allows diagnosis of diseases from tissue biopsies (e.g., cancer, hepatitis)<br>\n• Helps understand how normal tissues are organized before identifying abnormalities<br>\n• Forms the bridge between gross anatomy (what you can see) and biochemistry (what happens at the molecular level)<br><br>\n<em>Pathologists use histology daily to diagnose cancer — a tissue biopsy stained and viewed under a microscope can reveal whether cells are malignant.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Tissues and their structure at the cellular and extracellular levels"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": [
+      "Histology",
+      "Introduction",
+      "Tissue Types"
+    ],
+    "Question": {
+      "content": "The four basic tissue types of the human body are:",
+      "type": "OBJ",
+      "options": [
+        "Epithelial, connective, vascular, nervous",
+        "Epithelial, connective, muscle, nervous",
+        "Squamous, cuboidal, columnar, transitional",
+        "Bone, cartilage, blood, fat"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>The Four Fundamental Tissue Types</h4>\n<p>The answer is <strong>B</strong>. Every organ in the human body is built from combinations of just four basic tissue types.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<table style='width:100%; border-collapse:collapse; font-size:0.88em;'>\n<tr style='background: var(--strongColor); color: white;'><th style='padding:6px;'>Tissue</th><th style='padding:6px;'>Key Role</th><th style='padding:6px;'>Example</th></tr>\n<tr><td style='padding:6px;'><strong>Epithelial</strong></td><td style='padding:6px;'>Cover surfaces, line cavities, form glands</td><td style='padding:6px;'>Skin, gut lining</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:6px;'><strong>Connective</strong></td><td style='padding:6px;'>Support, bind, store, protect</td><td style='padding:6px;'>Bone, blood, fat</td></tr>\n<tr><td style='padding:6px;'><strong>Muscle</strong></td><td style='padding:6px;'>Contraction and movement</td><td style='padding:6px;'>Heart, biceps</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:6px;'><strong>Nervous</strong></td><td style='padding:6px;'>Communication and control</td><td style='padding:6px;'>Brain, spinal cord</td></tr>\n</table>\n<br><em>Memory trick: \"Every Cat Meows Naturally\" — Epithelial, Connective, Muscle, Nervous.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Epithelial, connective, muscle, nervous"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": [
+      "Histology",
+      "Techniques",
+      "Staining"
+    ],
+    "Question": {
+      "content": "In the routine Hematoxylin and Eosin (H&E) stain, hematoxylin stains nuclei and nucleic acids:",
+      "type": "OBJ",
+      "options": [
+        "Red/pink",
+        "Green",
+        "Blue/purple",
+        "Yellow"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>H&E — The Universal Histological Stain</h4>\n<p>The answer is <strong>Blue/purple</strong>. Hematoxylin is a <em>basic (positively charged) dye</em> that binds to acidic structures — particularly DNA and RNA in the nucleus.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>The H&E colour code:</strong><br>\n• <strong>Hematoxylin</strong> → <strong>Blue/purple</strong>: nuclei, ribosomes, rough ER (all acidic/basophilic structures)<br>\n• <strong>Eosin</strong> → <strong>Pink/red</strong>: cytoplasm, collagen, muscle fibres (acidophilic structures)<br><br>\n<strong style='color: var(--strongColor);'>Memory trick — \"HAE = Hematoxylin Acidic/basophilic stains = bluE\"</strong><br><br>\n<em>Basophilic = loves basic dye (hematoxylin) = stains blue.</em><br>\n<em>Acidophilic/eosinophilic = loves acidic dye (eosin) = stains pink.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Blue/purple"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": [
+      "Histology",
+      "Techniques",
+      "Fixation"
+    ],
+    "Question": {
+      "content": "The primary purpose of tissue fixation in histological preparation is to:",
+      "type": "OBJ",
+      "options": [
+        "Enhance tissue colour",
+        "Preserve tissue structure by preventing autolysis and putrefaction",
+        "Make tissue harder for slicing",
+        "Remove water from the tissue"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Fixation — Step 1 in Tissue Processing</h4>\n<p>The answer is <strong>B</strong>. Once tissue is removed from the body, cells immediately begin to self-digest (<em>autolysis</em>) and bacteria start breaking it down (<em>putrefaction</em>). Fixation stops both processes by cross-linking proteins and inactivating enzymes.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>The 5 steps of tissue preparation:</strong><br>\n1. <strong>Fixation</strong> — preserve structure (10% formalin is most common)<br>\n2. <strong>Processing</strong> — dehydration (alcohol) then clearing (xylene)<br>\n3. <strong>Embedding</strong> — infiltrate with paraffin wax for support<br>\n4. <strong>Sectioning</strong> — cut 3–5 µm thin slices with a microtome<br>\n5. <strong>Staining</strong> — apply dyes (H&E, PAS, Silver, etc.)<br><br>\n<em>Special stains:</em> PAS (Periodic Acid–Schiff) stains glycogen and mucus magenta. Silver stains highlight reticular fibres and nerve axons.</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Preserve tissue structure by preventing autolysis and putrefaction"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": [
+      "Histology",
+      "Techniques",
+      "Microscopy"
+    ],
+    "Question": {
+      "content": "Electron microscopy differs from light microscopy in that it:",
+      "type": "OBJ",
+      "options": [
+        "Uses visible light and has lower resolution",
+        "Uses a beam of electrons and achieves much higher resolution, revealing ultrastructure",
+        "Cannot visualise cell nuclei",
+        "Is used only for live tissue"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Light vs Electron Microscopy</h4>\n<p>The answer is <strong>B</strong>. Electrons have a much shorter wavelength than visible light, giving electron microscopes vastly superior resolution — they can reveal individual organelles and even macromolecular complexes.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<table style='width:100%; border-collapse:collapse; font-size:0.85em;'>\n<tr style='background: var(--strongColor); color: white;'><th style='padding:6px;'>Feature</th><th style='padding:6px;'>Light Microscope</th><th style='padding:6px;'>Electron Microscope</th></tr>\n<tr><td style='padding:6px;'>Source</td><td style='padding:6px;'>Visible light</td><td style='padding:6px;'>Electron beam</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:6px;'>Resolution</td><td style='padding:6px;'>~200 nm</td><td style='padding:6px;'>~0.1 nm</td></tr>\n<tr><td style='padding:6px;'>Magnification</td><td style='padding:6px;'>Up to ×1,500</td><td style='padding:6px;'>Up to ×1,000,000</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:6px;'>Image</td><td style='padding:6px;'>Coloured</td><td style='padding:6px;'>Black & white</td></tr>\n<tr><td style='padding:6px;'>Live specimens</td><td style='padding:6px;'>Yes</td><td style='padding:6px;'>No (must be fixed)</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:6px;'>Use</td><td style='padding:6px;'>Routine histology</td><td style='padding:6px;'>Ultrastructure (organelles, junctions)</td></tr>\n</table>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Uses a beam of electrons and achieves much higher resolution, revealing ultrastructure"
+    }
+  },
+  {
+    "type": "heading",
+    "heading": "Section 2: Connective Tissue"
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": [
+      "Histology",
+      "Connective Tissue",
+      "ECM"
+    ],
+    "Question": {
+      "content": "The extracellular matrix (ECM) of connective tissue is composed of:",
+      "type": "OBJ",
+      "options": [
+        "Only cells and water",
+        "Ground substance and fibres",
+        "Epithelial cells and basement membrane",
+        "Only collagen"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>The Extracellular Matrix (ECM)</h4>\n<p>The answer is <strong>B</strong>. Unlike epithelial tissue (which is mostly cells, packed tightly), connective tissue is defined by its <strong>abundant ECM</strong> — the material surrounding the cells. The cells are relatively few and scattered.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>ECM Components:</strong><br><br>\n<strong>1. Ground substance</strong> (amorphous, gel-like):<br>\n• <em>Glycosaminoglycans (GAGs)</em> — long unbranched chains of repeating disaccharides (e.g. hyaluronic acid, chondroitin sulfate, heparan sulfate). Highly negatively charged → attract water → give tissue its gel-like consistency and resistance to compression<br>\n• <em>Proteoglycans</em> — core protein + many GAG chains attached (like a bottle brush)<br>\n• <em>Glycoproteins</em> — fibronectin and laminin — link cells to ECM components<br><br>\n<strong>2. Fibres:</strong><br>\n• <em>Collagen</em> — tensile strength<br>\n• <em>Reticular</em> — fine scaffolding<br>\n• <em>Elastic</em> — recoil after stretch\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Ground substance and fibres"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": [
+      "Histology",
+      "Connective Tissue",
+      "Collagen"
+    ],
+    "Question": {
+      "content": "Which of the following correctly describes collagen fibres in connective tissue?",
+      "type": "OBJ",
+      "options": [
+        "They are elastic and stretch easily",
+        "They are the thinnest fibres, forming delicate meshworks",
+        "They provide great tensile strength and are the most abundant fibres in the body",
+        "They are only found in blood vessels"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>The Three Types of Connective Tissue Fibres</h4>\n<p>The answer is <strong>C</strong>. Collagen is the most abundant protein in the human body (~30% of total protein) and provides tremendous tensile strength — it is stronger than steel of the same weight.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<table style='width:100%; border-collapse:collapse; font-size:0.85em;'>\n<tr style='background: var(--strongColor); color: white;'><th style='padding:6px;'>Fibre</th><th style='padding:6px;'>Composition</th><th style='padding:6px;'>Key Property</th><th style='padding:6px;'>H&E appearance</th></tr>\n<tr><td style='padding:6px;'><strong>Collagen</strong></td><td style='padding:6px;'>Type I (most), types II–IV etc.</td><td style='padding:6px;'>Tensile strength, flexible but inextensible</td><td style='padding:6px;'>Pink, thick wavy bundles</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:6px;'><strong>Reticular</strong></td><td style='padding:6px;'>Type III collagen</td><td style='padding:6px;'>Fine meshwork — supports soft organs</td><td style='padding:6px;'>Not visible in H&E; needs silver stain</td></tr>\n<tr><td style='padding:6px;'><strong>Elastic</strong></td><td style='padding:6px;'>Elastin protein + fibrillin</td><td style='padding:6px;'>Stretch & recoil (like a rubber band)</td><td style='padding:6px;'>Thin, branch; needs special elastic stain</td></tr>\n</table>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "They provide great tensile strength and are the most abundant fibres in the body"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": [
+      "Histology",
+      "Connective Tissue",
+      "Cells",
+      "Fibroblasts"
+    ],
+    "Question": {
+      "content": "The principal cell of connective tissue proper, responsible for synthesising collagen, elastin, and ground substance, is the:",
+      "type": "OBJ",
+      "options": [
+        "Macrophage",
+        "Mast cell",
+        "Fibroblast",
+        "Plasma cell"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Connective Tissue Cells</h4>\n<p>The answer is <strong>Fibroblast</strong>. Fibroblasts are the most common resident cells of connective tissue proper. They are the \"builders\" of the ECM.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Active fibroblast vs fibrocyte:</strong><br>\n• <em>Fibroblast</em> — active, metabolically busy; large, pale, oval nucleus; prominent nucleoli; synthesises ECM<br>\n• <em>Fibrocyte</em> — quiescent (resting) form; smaller, darker nucleus; less cytoplasm<br><br>\n<strong style='color: var(--strongColor);'>Other connective tissue cells — who does what:</strong><br>\n• <strong>Macrophage</strong> — phagocytosis; present foreign antigens to T cells<br>\n• <strong>Mast cell</strong> — contains granules with histamine; mediates allergic reactions/inflammation<br>\n• <strong>Plasma cell</strong> — secretes antibodies (derived from B lymphocytes)<br>\n• <strong>Adipocyte</strong> — stores fat (triglycerides); forms adipose tissue<br>\n• <strong>Leukocytes</strong> — white blood cells that migrate from blood into connective tissue during inflammation\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Fibroblast"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": [
+      "Histology",
+      "Connective Tissue",
+      "Mast Cells"
+    ],
+    "Question": {
+      "content": "Mast cells in connective tissue are best known for:",
+      "type": "OBJ",
+      "options": [
+        "Secreting collagen fibres",
+        "Phagocytosing bacteria",
+        "Releasing histamine and heparin from granules during allergic reactions",
+        "Producing antibodies"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Mast Cells — The Allergy Cells</h4>\n<p>The answer is <strong>C</strong>. Mast cells are packed with large, darkly staining cytoplasmic granules containing <strong>histamine</strong> (causes vasodilation, itching, bronchoconstriction) and <strong>heparin</strong> (anticoagulant).</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Mast cell degranulation:</strong><br>\n1. IgE antibodies bind to receptors on mast cell surface during first exposure to allergen<br>\n2. On re-exposure: allergen cross-links IgE molecules → triggers <strong>degranulation</strong> (granule contents released)<br>\n3. Histamine release → vasodilation, increased vascular permeability, itching<br>\n4. Also releases leukotrienes and prostaglandins → bronchoconstriction (asthma)<br><br>\n<em>Clinical relevance: Antihistamines (e.g. loratadine) block histamine receptors and relieve allergic symptoms. Anaphylaxis — massive mast cell degranulation — can be life-threatening.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Releasing histamine and heparin from granules during allergic reactions"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": [
+      "Histology",
+      "Connective Tissue",
+      "Types"
+    ],
+    "Question": {
+      "content": "Tendons and ligaments are examples of which type of connective tissue?",
+      "type": "OBJ",
+      "options": [
+        "Loose areolar connective tissue",
+        "Dense irregular connective tissue",
+        "Dense regular connective tissue",
+        "Reticular connective tissue"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Dense Regular vs Irregular Connective Tissue</h4>\n<p>The answer is <strong>Dense regular connective tissue</strong>. In tendons and ligaments, collagen fibres are arranged in <strong>parallel bundles</strong> — all pointing in the same direction. This arrangement maximises tensile strength in one direction (the direction of pull).</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Connective Tissue Types Summary:</strong><br><br>\n<strong>Loose CT:</strong><br>\n• <em>Areolar</em> — most common; beneath epithelia; fibres loosely arranged; all cell types present<br>\n• <em>Adipose</em> — fat-storing adipocytes; under skin, around organs<br>\n• <em>Reticular</em> — fine Type III collagen meshwork; forms stroma of liver, spleen, lymph nodes<br><br>\n<strong>Dense CT:</strong><br>\n• <em>Dense regular</em> — parallel collagen bundles; tendons (bone→muscle), ligaments (bone→bone)<br>\n• <em>Dense irregular</em> — random fibre orientation; resists force from all directions; dermis of skin, joint capsules<br>\n• <em>Elastic CT</em> — predominantly elastic fibres; walls of large arteries, vocal cords\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Dense regular connective tissue"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "topic": [
+      "Histology",
+      "Connective Tissue",
+      "Cartilage"
+    ],
+    "Question": {
+      "content": "Hyaline cartilage is the most common type of cartilage in the body. Which of the following is a unique histological feature of hyaline cartilage?",
+      "type": "OBJ",
+      "options": [
+        "Contains elastic fibres visible on H&E stain",
+        "Has visible coarse collagen fibre bundles",
+        "Chondrocytes sit in spaces called lacunae, surrounded by a glassy, homogeneous ECM",
+        "Contains a rich blood supply throughout"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Three Types of Cartilage</h4>\n<p>The answer is <strong>C</strong>. Hyaline cartilage has a distinctive glass-like (hyalos = glass in Greek) ground substance due to its abundant chondroitin sulfate GAGs. Chondrocytes occupy small spaces called <strong>lacunae</strong>.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<table style='width:100%; border-collapse:collapse; font-size:0.85em;'>\n<tr style='background: var(--strongColor); color: white;'><th style='padding:6px;'>Cartilage</th><th style='padding:6px;'>Matrix</th><th style='padding:6px;'>Location</th></tr>\n<tr><td style='padding:6px;'><strong>Hyaline</strong></td><td style='padding:6px;'>Glassy, homogeneous (Type II collagen not visible)</td><td style='padding:6px;'>Articular surfaces, tracheal rings, fetal skeleton, costal cartilage</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:6px;'><strong>Elastic</strong></td><td style='padding:6px;'>Matrix has visible elastic fibres</td><td style='padding:6px;'>Ear pinna, epiglottis, larynx</td></tr>\n<tr><td style='padding:6px;'><strong>Fibrocartilage</strong></td><td style='padding:6px;'>Dense parallel Type I collagen bundles</td><td style='padding:6px;'>Intervertebral discs, pubic symphysis, menisci</td></tr>\n</table>\n<br><em>All cartilage: avascular (no blood vessels), nourished by diffusion. This is why cartilage heals slowly.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Chondrocytes sit in spaces called lacunae, surrounded by a glassy, homogeneous ECM"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": [
+      "Histology",
+      "Connective Tissue",
+      "Bone"
+    ],
+    "Question": {
+      "content": "The functional unit of compact bone is the osteon (Haversian system), which consists of:",
+      "type": "OBJ",
+      "options": [
+        "Trabeculae and red bone marrow",
+        "Concentric lamellae of bone matrix surrounding a central Haversian canal containing blood vessels",
+        "A single osteocyte surrounded by calcified matrix",
+        "Osteoblasts arranged in a single layer"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Compact Bone — The Osteon</h4>\n<p>The answer is <strong>B</strong>. The osteon is a cylinder of concentric bone rings (lamellae) surrounding a central <strong>Haversian canal</strong> that contains blood vessels and nerves.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Bone structure from outside in:</strong><br>\n• <strong>Periosteum</strong> — outer fibrous covering; contains osteoblast progenitors<br>\n• <strong>Compact bone</strong> — dense outer shell; made of osteons<br>\n• <strong>Spongy (cancellous) bone</strong> — inner lattice of trabeculae; spaces contain red/yellow bone marrow<br><br>\n<strong style='color: var(--strongColor);'>Bone cell types:</strong><br>\n• <em>Osteoblast</em> — builds bone (synthesises osteoid = unmineralised matrix)<br>\n• <em>Osteocyte</em> — trapped former osteoblast in lacuna; maintains bone matrix; senses mechanical strain<br>\n• <em>Osteoclast</em> — large multinucleated cell; resorbs bone (activated by PTH/RANKL)<br>\n• <em>Osteoprogenitor cell</em> — stem cell lining endosteum\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Concentric lamellae of bone matrix surrounding a central Haversian canal containing blood vessels"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "topic": [
+      "Histology",
+      "Connective Tissue",
+      "Adipose"
+    ],
+    "Question": {
+      "content": "In a routine H&E section, adipocytes (fat cells) appear as large, empty-looking cells with a thin rim of cytoplasm and a flattened, peripheral nucleus. This is because:",
+      "type": "OBJ",
+      "options": [
+        "Adipocytes die during tissue processing",
+        "The lipid is dissolved away by organic solvents during dehydration and clearing, leaving empty spaces",
+        "Adipocytes have no cytoplasm",
+        "The nucleus migrates outward during fixation"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>The \"Ghost Cell\" Appearance of Adipocytes</h4>\n<p>The answer is <strong>B</strong>. Standard tissue processing uses alcohol and xylene — both of which are lipid solvents. They dissolve the fat droplet out of the cell, leaving only the cell membrane framework = <strong>empty-looking \"signet ring\" cell</strong>.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>White vs Brown adipose tissue:</strong><br>\n• <em>White adipose (WAT)</em> — most common; single large lipid droplet (unilocular); stores energy, thermal insulation; \"signet ring\" on H&E<br>\n• <em>Brown adipose (BAT)</em> — multiple small droplets (multilocular); rich in mitochondria (hence brown colour); generates heat (thermogenesis) — prominent in infants<br><br>\n<em>To demonstrate lipid histologically, frozen sections stained with Oil Red O or Sudan Black are used — these preserve the fat.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The lipid is dissolved away by organic solvents during dehydration and clearing, leaving empty spaces"
+    }
+  },
+  {
+    "type": "heading",
+ 
+    "heading": "Section 3: Epithelial Tissue"
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "topic": [
+      "Histology",
+      "Epithelial Tissue",
+      "General Features"
+    ],
+    "Question": {
+      "content": "Which of the following is a defining feature of ALL epithelial tissue?",
+      "type": "OBJ",
+      "options": [
+        "It contains many blood vessels",
+        "Cells are loosely arranged with abundant ECM",
+        "Cells are tightly packed with little ECM and sit on a basement membrane",
+        "It only covers external body surfaces"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Defining Features of Epithelium</h4>\n<p>The answer is <strong>C</strong>. These are the four universal characteristics of ALL epithelia — the key features that distinguish it from connective tissue.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>4 hallmarks of epithelium:</strong><br>\n1. <strong>Tightly packed cells</strong> with little ECM between them — cells are held together by junctions (tight junctions, desmosomes, gap junctions)<br>\n2. <strong>Sits on a basement membrane</strong> — thin ECM sheet that anchors epithelium to underlying connective tissue<br>\n3. <strong>Avascular</strong> — NO blood vessels; receives nutrients by diffusion from underlying connective tissue<br>\n4. <strong>High regenerative capacity</strong> — stem cells in basal layer constantly replenish shed surface cells<br><br>\n<em>Functions: Protection (skin), absorption (intestine), secretion (glands), filtration (kidney), sensation (taste buds, olfactory epithelium).</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Cells are tightly packed with little ECM and sit on a basement membrane"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": [
+      "Histology",
+      "Epithelial Tissue",
+      "Classification"
+    ],
+    "Question": {
+      "content": "Simple squamous epithelium lines all of the following EXCEPT:",
+      "type": "OBJ",
+      "options": [
+        "Alveoli of the lungs",
+        "Bowman's capsule of the kidney",
+        "The urinary bladder",
+        "Blood vessel walls (endothelium)"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Epithelium Classification — Location Clues</h4>\n<p>The answer is <strong>The urinary bladder</strong>, which is lined by <strong>transitional epithelium (urothelium)</strong> — specialised to stretch as the bladder fills.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Classification system:</strong><br>\n<strong>By layers:</strong><br>\n• <em>Simple</em> — single cell layer (e.g. alveoli, endothelium)<br>\n• <em>Stratified</em> — multiple layers (e.g. skin, oesophagus)<br>\n• <em>Pseudostratified</em> — appears multilayered but all cells touch basement membrane (e.g. respiratory tract)<br>\n• <em>Transitional</em> — can change shape; renal pelvis, ureters, bladder<br><br>\n<strong>By shape (of surface cells):</strong><br>\n• <em>Squamous</em> — flat, scale-like<br>\n• <em>Cuboidal</em> — equal height and width (cube-like)<br>\n• <em>Columnar</em> — taller than wide\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The urinary bladder"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": [
+      "Histology",
+      "Epithelial Tissue",
+      "Surface Specializations"
+    ],
+    "Question": {
+      "content": "Microvilli on the apical surface of intestinal absorptive cells form a structure called the:",
+      "type": "OBJ",
+      "options": [
+        "Stereocilia",
+        "Brush border (striated border)",
+        "Terminal web",
+        "Glycocalyx"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Microvilli — Maximising Absorption</h4>\n<p>The answer is <strong>Brush border (striated border)</strong>. Thousands of microvilli per cell create this fuzzy-appearing apical specialisation visible on H&E, which dramatically increases the absorptive surface area.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Apical surface specialisations:</strong><br>\n• <strong>Microvilli</strong> — short, finger-like; core of actin filaments; increase surface area for absorption; found in intestine (brush border) and kidney proximal tubule<br>\n• <strong>Cilia</strong> — long, motile; core of 9+2 microtubule axoneme; powered by dynein; beat rhythmically to move mucus or cells; found in respiratory tract, oviduct (fallopian tube)<br>\n• <strong>Stereocilia</strong> — very long, non-motile microvilli; found in epididymis (sperm absorption) and inner ear hair cells (mechanosensation)<br><br>\n<em>Cilia vs microvilli: Cilia are MUCH longer and MOVE. Microvilli are short and stationary.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Brush border (striated border)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "topic": [
+      "Histology",
+      "Epithelial Tissue",
+      "Basement Membrane"
+    ],
+    "Question": {
+      "content": "The basement membrane that underlies all epithelia consists of two layers: the basal lamina (produced by epithelial cells) and the reticular lamina (produced by:",
+      "type": "OBJ",
+      "options": [
+        "Osteoblasts",
+        "Endothelial cells",
+        "Underlying connective tissue fibroblasts",
+        "Mast cells"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>The Basement Membrane</h4>\n<p>The answer is <strong>Underlying connective tissue fibroblasts</strong>. The basement membrane has two layers with different cellular origins.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Basement Membrane Structure:</strong><br>\n• <strong>Basal lamina</strong> — secreted by the overlying epithelial cells; contains Type IV collagen, laminin, fibronectin, perlecan (heparan sulfate proteoglycan)<br>\n• <strong>Reticular lamina</strong> — secreted by fibroblasts in underlying connective tissue; contains Type III (reticular) collagen fibres<br><br>\n<strong>Functions of the basement membrane:</strong><br>\n1. Structural support and anchorage of epithelium<br>\n2. Physical barrier — selective filter (e.g. glomerular basement membrane filters blood)<br>\n3. Guides cell migration during tissue repair and development<br>\n4. Regulates cell behaviour — growth factor reservoir<br><br>\n<em>Visible as pink line on PAS stain (stains the glycoproteins magenta).</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Underlying connective tissue fibroblasts"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "topic": [
+      "Histology",
+      "Epithelial Tissue",
+      "Glands"
+    ],
+    "Question": {
+      "content": "An exocrine gland differs from an endocrine gland in that it:",
+      "type": "OBJ",
+      "options": [
+        "Secretes hormones directly into the bloodstream",
+        "Has no secretory cells",
+        "Delivers its secretion via ducts to a surface or cavity",
+        "Is only found in the digestive system"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Exocrine vs Endocrine Glands</h4>\n<p>The answer is <strong>C</strong>. \"Exo\" means outside — exocrine glands always have a duct connecting them to the body surface or lumen of a hollow organ.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<table style='width:100%; border-collapse:collapse; font-size:0.85em;'>\n<tr style='background: var(--strongColor); color: white;'><th style='padding:6px;'>Feature</th><th style='padding:6px;'>Exocrine</th><th style='padding:6px;'>Endocrine</th></tr>\n<tr><td style='padding:6px;'>Duct</td><td style='padding:6px;'>Yes — delivers to surface/cavity</td><td style='padding:6px;'>No duct — secretes into blood</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:6px;'>Secretion</td><td style='padding:6px;'>Enzymes, mucus, sweat, sebum</td><td style='padding:6px;'>Hormones</td></tr>\n<tr><td style='padding:6px;'>Examples</td><td style='padding:6px;'>Salivary glands, pancreatic acini, sweat glands</td><td style='padding:6px;'>Thyroid, adrenal, pituitary, islets of Langerhans</td></tr>\n</table>\n<br><em>Exocrine secretion mechanisms: Merocrine (exocytosis, no cell damage — e.g. salivary glands), Apocrine (apical cytoplasm lost — e.g. mammary glands), Holocrine (whole cell breaks down — e.g. sebaceous glands).</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Delivers its secretion via ducts to a surface or cavity"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "topic": [
+      "Histology",
+      "Epithelial Tissue",
+      "Classification"
+    ],
+    "Question": {
+      "content": "Pseudostratified columnar epithelium appears multilayered under the microscope but is actually a simple epithelium because:",
+      "type": "OBJ",
+      "options": [
+        "All its cells are the same height",
+        "All cells contact the basement membrane, but not all reach the surface",
+        "It contains only one type of cell",
+        "It lacks goblet cells"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Pseudostratified Epithelium — The Illusion</h4>\n<p>The answer is <strong>B</strong>. \"Pseudo\" means false. Although nuclei appear at different heights (giving a multilayered look), every single cell actually touches the basement membrane — it is technically a <em>simple</em> epithelium.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>How the illusion happens:</strong><br>\nCells are different heights. Shorter cells have nuclei near the base; taller cells have nuclei near the top. This staggering of nuclear positions creates the impression of multiple layers — but trace any cell from its nucleus downward and it touches the basement membrane.<br><br>\n<strong>Classic location:</strong> Respiratory tract (trachea, bronchi) — ciliated pseudostratified columnar epithelium with goblet cells = <strong>\"respiratory epithelium\"</strong>. Cilia beat mucus upward (mucociliary escalator), trapping and removing inhaled particles.<br><br>\n<em>Also found in: vas deferens, epididymis (with stereocilia).</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "All cells contact the basement membrane, but not all reach the surface"
+    }
+  },
+  {
+    "type": "heading",
+ 
+    "heading": "Section 4: Muscle Tissue"
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "topic": [
+      "Histology",
+      "Muscle Tissue",
+      "Skeletal Muscle"
+    ],
+    "Question": {
+      "content": "Skeletal muscle fibres are distinctive on H&E sections because they show:",
+      "type": "OBJ",
+      "options": [
+        "A single central nucleus and intercalated discs",
+        "Spindle-shaped cells with no striations",
+        "Peripheral nuclei, cross-striations, and are very large multinucleated cells",
+        "Branching fibres with central nuclei"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>The Three Muscle Types — Histological ID</h4>\n<p>The answer is <strong>C</strong>. Skeletal muscle fibres are the largest cells in the body — they form by fusion of many myoblasts (hence <strong>multinucleated</strong>). The nuclei are pushed to the cell periphery (just under the sarcolemma).</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<table style='width:100%; border-collapse:collapse; font-size:0.85em;'>\n<tr style='background: var(--strongColor); color: white;'><th style='padding:6px;'>Feature</th><th style='padding:6px;'>Skeletal</th><th style='padding:6px;'>Cardiac</th><th style='padding:6px;'>Smooth</th></tr>\n<tr><td style='padding:6px;'>Striations</td><td style='padding:6px;'>Yes</td><td style='padding:6px;'>Yes</td><td style='padding:6px;'>No</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:6px;'>Nuclei</td><td style='padding:6px;'>Multiple, peripheral</td><td style='padding:6px;'>1–2, central</td><td style='padding:6px;'>1, central</td></tr>\n<tr><td style='padding:6px;'>Branching</td><td style='padding:6px;'>No</td><td style='padding:6px;'>Yes</td><td style='padding:6px;'>No</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:6px;'>Control</td><td style='padding:6px;'>Voluntary</td><td style='padding:6px;'>Involuntary</td><td style='padding:6px;'>Involuntary</td></tr>\n<tr><td style='padding:6px;'>Special feature</td><td style='padding:6px;'>Sarcomeres</td><td style='padding:6px;'>Intercalated discs</td><td style='padding:6px;'>Dense bodies</td></tr>\n</table>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Peripheral nuclei, cross-striations, and are very large multinucleated cells"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21",
+    "topic": [
+      "Histology",
+      "Muscle Tissue",
+      "Sarcomere"
+    ],
+    "Question": {
+      "content": "The structural unit of skeletal muscle contraction is the sarcomere, which is defined as the region between:",
+      "type": "OBJ",
+      "options": [
+        "Two A bands",
+        "Two H zones",
+        "Two Z lines (Z discs)",
+        "Two M lines"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>The Sarcomere — Unit of Contraction</h4>\n<p>The answer is <strong>Two Z lines (Z discs)</strong>. Sarcomeres are arranged end to end along a myofibril, and their regular repeating pattern creates the visible striations of skeletal and cardiac muscle.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Sarcomere bands — from dark to light:</strong><br>\n• <strong>Z line</strong> — anchors thin (actin) filaments; boundary of sarcomere<br>\n• <strong>I band</strong> — light band; thin filaments only (actin)<br>\n• <strong>A band</strong> — dark band; thick (myosin) filaments + overlapping actin; does NOT shorten during contraction<br>\n• <strong>H zone</strong> — pale centre of A band; myosin only, no actin overlap<br>\n• <strong>M line</strong> — centre of sarcomere; holds myosin filaments in register<br><br>\n<em>During contraction (sliding filament theory): Actin slides toward M line → I band and H zone shorten → A band stays the same length → sarcomere shortens → muscle contracts.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Two Z lines (Z discs)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22",
+    "topic": [
+      "Histology",
+      "Muscle Tissue",
+      "Cardiac Muscle"
+    ],
+    "Question": {
+      "content": "Intercalated discs are a unique feature of cardiac muscle. They contain junctions that allow:",
+      "type": "OBJ",
+      "options": [
+        "Attachment to tendons",
+        "Electrical coupling between cells via gap junctions, and mechanical coupling via desmosomes and fascia adherens",
+        "Immune cell attachment",
+        "Hormone receptor signalling only"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Intercalated Discs — Why the Heart Beats as One</h4>\n<p>The answer is <strong>B</strong>. Intercalated discs are step-like junctions at the ends of adjacent cardiac muscle cells. They contain three types of junctions working together.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Three junctions in intercalated discs:</strong><br><br>\n1. <strong>Fascia adherens</strong> — anchors actin from terminal sarcomeres; transmits contractile force between cells<br>\n2. <strong>Desmosomes</strong> — link intermediate filaments (desmins); prevent cells from pulling apart during contraction<br>\n3. <strong>Gap junctions</strong> — connexin protein channels; allow direct electrical coupling (ions pass freely) → action potential spreads rapidly from cell to cell → all cardiac myocytes contract almost simultaneously = <strong>functional syncytium</strong><br><br>\n<em>This electrical coupling is why the entire heart contracts in a coordinated wave rather than piecemeal contractions.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Electrical coupling between cells via gap junctions, and mechanical coupling via desmosomes and fascia adherens"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23",
+    "topic": [
+      "Histology",
+      "Muscle Tissue",
+      "Smooth Muscle"
+    ],
+    "Question": {
+      "content": "Smooth muscle cells are histologically characterised by which of the following?",
+      "type": "OBJ",
+      "options": [
+        "Multiple peripheral nuclei and obvious striations",
+        "Intercalated discs and branched fibres",
+        "Elongated spindle-shaped cells with a single central nucleus and no striations",
+        "Large cells with T-tubule systems"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Smooth Muscle Histology</h4>\n<p>The answer is <strong>C</strong>. Smooth muscle has no sarcomeres (hence no striations). Cells are individually elongated and tapered at each end — classically described as <em>spindle-shaped</em> or <em>fusiform</em>.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Smooth muscle key features:</strong><br>\n• No striations — actin and myosin filaments are obliquely arranged and anchored to <strong>dense bodies</strong> (equivalent to Z lines)<br>\n• Single <strong>central nucleus</strong> (in contracted state, nucleus appears corkscrew-shaped/crumpled)<br>\n• Cells arranged in layers or sheets; adjacent cells connected by gap junctions<br>\n• Involuntary — regulated by autonomic nervous system and hormones<br><br>\n<strong>Locations:</strong> Walls of blood vessels (tunica media), GI tract, uterus, bladder, airways, iris of eye.<br><br>\n<em>In cross-section, a bundle of smooth muscle looks like polka dots — small circles with central dots (nuclei).</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Elongated spindle-shaped cells with a single central nucleus and no striations"
+    }
+  },
+  {
+    "type": "heading",
+ 
+    "heading": "Section 5: Nervous Tissue"
+  },
+  {
+    "type": "Question",
+    "name": "Question 24",
+    "topic": [
+      "Histology",
+      "Nervous Tissue",
+      "Neurons"
+    ],
+    "Question": {
+      "content": "The main components of a neuron (nerve cell) are:",
+      "type": "OBJ",
+      "options": [
+        "Soma, dendrites, and axon",
+        "Soma, myelin sheath, and Schwann cells",
+        "Axon, endoneurium, and perineurium",
+        "Nissl bodies, microglia, and astrocytes"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Neuron Anatomy</h4>\n<p>The answer is <strong>A</strong>. Every neuron — regardless of its function or location — has these three fundamental parts.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Three parts of a neuron:</strong><br><br>\n1. <strong>Soma (cell body)</strong> — contains the nucleus and most organelles; houses <em>Nissl bodies</em> (rough ER + free ribosomes that stain dark blue with basic dyes — hallmark of neurons under LM); metabolic centre<br>\n2. <strong>Dendrites</strong> — multiple short branching processes; receive incoming signals; conduct impulses <em>toward</em> soma (afferent)<br>\n3. <strong>Axon</strong> — single long process (can be up to 1 metre!); conducts impulse <em>away</em> from soma (efferent); begins at <em>axon hillock</em>; ends at <em>axon terminal (bouton)</em> where neurotransmitters are released<br><br>\n<em>Note: Nissl bodies are absent from the axon hillock and axon — an important identifying feature.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Soma, dendrites, and axon"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25",
+    "topic": [
+      "Histology",
+      "Nervous Tissue",
+      "Neuroglia",
+      "CNS"
+    ],
+    "Question": {
+      "content": "Which CNS glial cell is responsible for producing myelin sheaths around axons within the central nervous system?",
+      "type": "OBJ",
+      "options": [
+        "Astrocyte",
+        "Microglia",
+        "Ependymal cell",
+        "Oligodendrocyte"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>CNS Glial Cells — Each Has a Job</h4>\n<p>The answer is <strong>Oligodendrocyte</strong>. Unlike Schwann cells (PNS), a single oligodendrocyte can myelinate segments of <strong>multiple</strong> axons simultaneously (up to ~50 axons).</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<table style='width:100%; border-collapse:collapse; font-size:0.85em;'>\n<tr style='background: var(--strongColor); color: white;'><th style='padding:6px;'>Glial cell</th><th style='padding:6px;'>Function</th></tr>\n<tr><td style='padding:6px;'><strong>Astrocyte</strong></td><td style='padding:6px;'>Most abundant; structural support; form blood-brain barrier; regulate ion/neurotransmitter environment; respond to injury (gliosis)</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:6px;'><strong>Oligodendrocyte</strong></td><td style='padding:6px;'>CNS myelin production; one cell myelinates multiple axons</td></tr>\n<tr><td style='padding:6px;'><strong>Microglia</strong></td><td style='padding:6px;'>CNS macrophages; phagocytose debris, pathogens; immune defence of CNS</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:6px;'><strong>Ependymal cells</strong></td><td style='padding:6px;'>Line ventricles and central canal; produce CSF; ciliated</td></tr>\n</table>\n<br><em>Multiple sclerosis (MS) is caused by autoimmune destruction of oligodendrocytes and myelin in the CNS, leading to impaired nerve conduction.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Oligodendrocyte"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26",
+    "topic": [
+      "Histology",
+      "Nervous Tissue",
+      "PNS Glia",
+      "Myelination"
+    ],
+    "Question": {
+      "content": "In the peripheral nervous system (PNS), myelin sheaths are produced by:",
+      "type": "OBJ",
+      "options": [
+        "Oligodendrocytes",
+        "Astrocytes",
+        "Schwann cells",
+        "Satellite cells"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>PNS Glia vs CNS Glia</h4>\n<p>The answer is <strong>Schwann cell</strong>. A key difference from the CNS: each Schwann cell myelinates only a <strong>single segment</strong> of <strong>one</strong> axon.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>How Schwann cells myelinate:</strong><br>\n1. Schwann cell wraps its membrane around the axon segment repeatedly<br>\n2. Cytoplasm is squeezed out → layers of plasma membrane fuse → <strong>compact myelin</strong><br>\n3. The gap between adjacent Schwann cells = <strong>Node of Ranvier</strong><br>\n4. At nodes: ion channels (Na⁺, K⁺) are concentrated → action potential <em>jumps</em> from node to node = <strong>saltatory conduction</strong> → much faster than unmyelinated fibres<br><br>\n<strong>PNS glia:</strong><br>\n• <em>Schwann cells</em> — myelinate PNS axons; support nerve regeneration<br>\n• <em>Satellite cells</em> — surround neuron cell bodies in ganglia; provide support and nutrition<br><br>\n<em>Guillain-Barré syndrome — autoimmune destruction of Schwann cells → peripheral nerve dysfunction → ascending paralysis.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Schwann cells"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 27",
+    "topic": [
+      "Histology",
+      "Nervous Tissue",
+      "Nerve Structure"
+    ],
+    "Question": {
+      "content": "The connective tissue layers of a peripheral nerve, from outermost to innermost, are correctly listed as:",
+      "type": "OBJ",
+      "options": [
+        "Endoneurium → Perineurium → Epineurium",
+        "Epineurium → Perineurium → Endoneurium",
+        "Perineurium → Epineurium → Endoneurium",
+        "Mesoneurium → Endoneurium → Perineurium"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>The Three Connective Tissue Sheaths of a Nerve</h4>\n<p>The answer is <strong>Epineurium → Perineurium → Endoneurium</strong> (outside → inside). Think of a nerve as being organised like a cable with insulated wires bundled inside bundles.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Layer by layer:</strong><br>\n• <strong>Epineurium</strong> — outermost; dense irregular CT; surrounds the entire nerve trunk; contains blood vessels<br>\n• <strong>Perineurium</strong> — surrounds each <em>fascicle</em> (bundle of axons); multiple layers of flattened epithelium-like cells with tight junctions → forms a blood-nerve barrier; maintains ionic environment<br>\n• <strong>Endoneurium</strong> — innermost; loose CT; surrounds individual axons and their Schwann cells<br><br>\n<em>Memory trick: <strong>E</strong>very <strong>P</strong>erson <strong>E</strong>nters — Epineurium, Perineurium, Endoneurium (outside → inside).</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Epineurium → Perineurium → Endoneurium"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28",
+    "topic": [
+      "Histology",
+      "Nervous Tissue",
+      "Synapse",
+      "Neurotransmission"
+    ],
+    "Question": {
+      "content": "At a chemical synapse, neurotransmitters are released from the presynaptic terminal and bind to receptors on the postsynaptic membrane. Neurotransmitter release is triggered by:",
+      "type": "OBJ",
+      "options": [
+        "Decrease in intracellular Ca²⁺",
+        "Arrival of an action potential causing Ca²⁺ influx into the presynaptic terminal",
+        "Direct electrical current passing through gap junctions",
+        "Diffusion of K⁺ out of the cell"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Chemical Synaptic Transmission — Step by Step</h4>\n<p>The answer is <strong>B</strong>. Ca²⁺ influx is the essential trigger that links electrical activity (action potential) to chemical secretion (neurotransmitter release) — a process called <strong>excitation-secretion coupling</strong>.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Sequence of events at a chemical synapse:</strong><br>\n1. Action potential arrives at axon terminal<br>\n2. Voltage-gated <strong>Ca²⁺ channels</strong> open → Ca²⁺ flows in<br>\n3. Ca²⁺ causes synaptic vesicles to fuse with presynaptic membrane → <strong>exocytosis</strong> of neurotransmitter into synaptic cleft<br>\n4. Neurotransmitter diffuses across cleft and binds receptors on postsynaptic membrane<br>\n5. Ion channels open/close → depolarisation (excitatory) or hyperpolarisation (inhibitory)<br>\n6. Neurotransmitter is removed: reuptake, enzymatic degradation, or diffusion<br><br>\n<em>Examples: Acetylcholine (NMJ, parasympathetic), Glutamate (main CNS excitatory), GABA (main CNS inhibitory), Dopamine, Serotonin, Norepinephrine.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Arrival of an action potential causing Ca²⁺ influx into the presynaptic terminal"
+    }
+  },
+  {
+    "type": "heading",
+ 
+    "heading": "Section 6: Blood Histology (VERY IMPORTANT)"
+  },
+  {
+    "type": "Question",
+    "name": "Question 29",
+    "topic": [
+      "Histology",
+      "Blood",
+      "Erythrocytes"
+    ],
+    "Question": {
+      "content": "Mature erythrocytes (red blood cells) in a blood smear are best described as:",
+      "type": "OBJ",
+      "options": [
+        "Large cells with multilobed nuclei",
+        "Small, anucleate biconcave discs that stain pink with eosin",
+        "Granular cells with kidney-shaped nuclei",
+        "Large cells with abundant pale cytoplasm"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Erythrocytes — The Oxygen Carriers</h4>\n<p>The answer is <strong>B</strong>. Mature RBCs are unique among human cells — they eject their nucleus and organelles during maturation to maximise space for haemoglobin.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Key RBC features:</strong><br>\n• <strong>Biconcave disc shape</strong> — increases surface area-to-volume ratio for rapid O₂/CO₂ exchange; highly flexible (squeezes through capillaries 2–3 µm wide)<br>\n• <strong>Anucleate</strong> — no nucleus; no mitochondria; no ribosomes → rely on anaerobic glycolysis for ATP<br>\n• <strong>Size</strong>: ~7–8 µm diameter (used as a ruler when estimating other cell sizes)<br>\n• <strong>Central pallor</strong>: on blood smear, RBCs have a pale centre (thinner area) — useful in diagnosing anaemia (hypochromic RBCs have enlarged pallor)<br>\n• <strong>Lifespan</strong>: ~120 days → destroyed in spleen and liver<br>\n• <strong>Haemoglobin</strong>: carries O₂ (and some CO₂); iron in haem binds O₂ reversibly\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Small, anucleate biconcave discs that stain pink with eosin"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30",
+    "topic": [
+      "Histology",
+      "Blood",
+      "Leukocytes",
+      "Neutrophils"
+    ],
+    "Question": {
+      "content": "The most abundant leukocyte in normal peripheral blood, which is the first line of defence against bacterial infection and has a multilobed nucleus, is the:",
+      "type": "OBJ",
+      "options": [
+        "Lymphocyte",
+        "Monocyte",
+        "Eosinophil",
+        "Neutrophil"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Neutrophils — The First Responders</h4>\n<p>The answer is <strong>Neutrophil</strong>. Neutrophils make up <strong>60–70% of all circulating white blood cells</strong>. They are phagocytes — they engulf and destroy bacteria.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<table style='width:100%; border-collapse:collapse; font-size:0.83em;'>\n<tr style='background: var(--strongColor); color: white;'><th style='padding:5px;'>Cell</th><th style='padding:5px;'>% in blood</th><th style='padding:5px;'>Nucleus</th><th style='padding:5px;'>Granules/Cytoplasm</th><th style='padding:5px;'>Function</th></tr>\n<tr><td style='padding:5px;'><strong>Neutrophil</strong></td><td style='padding:5px;'>60–70%</td><td style='padding:5px;'>2–5 lobes (multilobed)</td><td style='padding:5px;'>Fine, pale (neutral) granules</td><td style='padding:5px;'>Phagocytose bacteria; first to arrive at infection</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'><strong>Lymphocyte</strong></td><td style='padding:5px;'>20–40%</td><td style='padding:5px;'>Large, round, dark</td><td style='padding:5px;'>Scant cytoplasm (dark blue rim)</td><td style='padding:5px;'>T cells (immunity), B cells (antibodies)</td></tr>\n<tr><td style='padding:5px;'><strong>Monocyte</strong></td><td style='padding:5px;'>2–10%</td><td style='padding:5px;'>Kidney/horseshoe-shaped</td><td style='padding:5px;'>Abundant pale grey cytoplasm</td><td style='padding:5px;'>Phagocytosis; become macrophages in tissues</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'><strong>Eosinophil</strong></td><td style='padding:5px;'>1–4%</td><td style='padding:5px;'>Bilobed</td><td style='padding:5px;'><strong>Large red-orange granules</strong></td><td style='padding:5px;'>Parasites; allergic reactions</td></tr>\n<tr><td style='padding:5px;'><strong>Basophil</strong></td><td style='padding:5px;'>0.5–1%</td><td style='padding:5px;'>Irregular, hidden by granules</td><td style='padding:5px;'><strong>Large dark blue/purple granules</strong> (histamine, heparin)</td><td style='padding:5px;'>Allergic reactions; similar to mast cells</td></tr>\n</table>\n<br><em>Memory trick: \"Never Let Monkeys Eat Bananas\" — Neutrophil, Lymphocyte, Monocyte, Eosinophil, Basophil (by decreasing frequency).</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Neutrophil"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 31",
+    "topic": [
+      "Histology",
+      "Blood",
+      "Leukocytes",
+      "Eosinophils"
+    ],
+    "Question": {
+      "content": "In a blood smear, eosinophils are recognised by their:",
+      "type": "OBJ",
+      "options": [
+        "Multilobed pale nucleus with fine granules",
+        "Bilobed nucleus and large, bright red-orange cytoplasmic granules",
+        "Single dark round nucleus and scant cytoplasm",
+        "Kidney-shaped nucleus and pale, granule-free cytoplasm"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Eosinophils — The Parasite Killers</h4>\n<p>The answer is <strong>B</strong>. Eosinophils are unmistakable on a blood smear — their huge, bright orange-red granules make them look like they are on fire. The name comes from their affinity for eosin dye.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Eosinophil granule contents:</strong><br>\n• <strong>Major basic protein (MBP)</strong> — toxic to parasites and host tissues<br>\n• <strong>Eosinophil cationic protein (ECP)</strong> — kills parasites; damages airway epithelium in asthma<br>\n• <strong>Eosinophil peroxidase</strong> — generates toxic oxidants<br><br>\n<strong>Eosinophilia (elevated eosinophils) — causes:</strong><br>\n• Parasitic infections (helminths — worms)<br>\n• Allergic diseases (asthma, hay fever)<br>\n• Cushing syndrome, adrenal insufficiency<br>\n• Drug hypersensitivity<br><br>\n<em>\"NAACP\" mnemonic for eosinophilia: Neoplasm, Asthma/Allergies, Addison's disease, Collagen vascular disease, Parasites.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Bilobed nucleus and large, bright red-orange cytoplasmic granules"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 32",
+    "topic": [
+      "Histology",
+      "Blood",
+      "Platelets"
+    ],
+    "Question": {
+      "content": "Platelets (thrombocytes) are:",
+      "type": "OBJ",
+      "options": [
+        "Whole cells with a single nucleus, derived from lymphocytes",
+        "Anucleate cell fragments derived from megakaryocytes in bone marrow",
+        "Large granular cells that produce antibodies",
+        "Derived from monocytes and phagocytose pathogens"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Platelets — The Clotting Fragments</h4>\n<p>The answer is <strong>B</strong>. Platelets are NOT whole cells — they are small, anucleate fragments pinched off from the enormous <strong>megakaryocytes</strong> in bone marrow. Each megakaryocyte produces thousands of platelets.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Platelet features:</strong><br>\n• <strong>Size</strong>: 2–3 µm (tiny — smallest formed element)<br>\n• <strong>No nucleus</strong> — but contain granules and organelles<br>\n• <strong>Granule contents</strong>: ADP (activates more platelets), fibrinogen, clotting factors, von Willebrand factor, serotonin<br><br>\n<strong>Role in haemostasis:</strong><br>\n1. <em>Adhesion</em> — platelets stick to exposed collagen at wound site (via vWF and GpIb receptor)<br>\n2. <em>Activation</em> — change shape, release granule contents<br>\n3. <em>Aggregation</em> — platelets pile on each other (via fibrinogen and GpIIb/IIIa) → primary platelet plug<br>\n4. Coagulation cascade → fibrin mesh reinforces plug<br><br>\n<em>Normal platelet count: 150,000–400,000/µL. Thrombocytopenia (&lt;150,000) → bleeding risk.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Anucleate cell fragments derived from megakaryocytes in bone marrow"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 33",
+    "topic": [
+      "Histology",
+      "Blood",
+      "Leukocytes",
+      "Lymphocytes"
+    ],
+    "Question": {
+      "content": "On a blood smear, lymphocytes are identified by their:",
+      "type": "OBJ",
+      "options": [
+        "Kidney-shaped nucleus and abundant pale grey cytoplasm",
+        "Multilobed nucleus and neutral-staining granules",
+        "Large round dark nucleus that nearly fills the cell, with a thin rim of dark blue cytoplasm",
+        "Bilobed nucleus and large orange granules"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Lymphocytes — Adaptive Immunity Cells</h4>\n<p>The answer is <strong>C</strong>. Lymphocytes are the second most common WBC. Their most striking feature is the dominant nucleus — it takes up nearly the entire cell with just a thin rim of dark blue cytoplasm.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Types of lymphocytes:</strong><br>\n• <strong>T lymphocytes (T cells)</strong> — mature in Thymus; include cytotoxic T cells (kill infected/cancer cells), helper T cells (coordinate immune response), regulatory T cells<br>\n• <strong>B lymphocytes (B cells)</strong> — mature in Bone marrow; differentiate into plasma cells → secrete antibodies (immunoglobulins)<br>\n• <strong>NK (Natural Killer) cells</strong> — innate immune lymphocytes; kill virus-infected cells and tumour cells without prior sensitisation<br><br>\n<em>On H&E/Giemsa-stained smear, you CANNOT distinguish T from B lymphocytes by morphology alone — immunohistochemistry (antibodies against CD3 for T cells, CD20 for B cells) is needed.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Large round dark nucleus that nearly fills the cell, with a thin rim of dark blue cytoplasm"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 34",
+    "topic": [
+      "Histology",
+      "Blood",
+      "Granulocytes",
+      "Basophils"
+    ],
+    "Question": {
+      "content": "Basophils are the rarest leukocyte in blood. Their large dark blue-purple granules contain:",
+      "type": "OBJ",
+      "options": [
+        "Digestive enzymes for killing bacteria",
+        "Histamine and heparin, mediating allergic and inflammatory responses",
+        "Peroxidase for killing parasites",
+        "Antibodies against pathogens"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Basophils — The Rarest, Most Dramatic WBC</h4>\n<p>The answer is <strong>B</strong>. Basophils contain large granules so heavily stained that they often obscure the nucleus. They are the circulating counterpart of tissue mast cells.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Basophil vs Mast cell:</strong><br>\n<table style='width:100%; border-collapse:collapse; font-size:0.85em;'>\n<tr style='background: var(--strongColor); color: white;'><th style='padding:5px;'>Feature</th><th style='padding:5px;'>Basophil</th><th style='padding:5px;'>Mast cell</th></tr>\n<tr><td style='padding:5px;'>Location</td><td style='padding:5px;'>Circulating blood</td><td style='padding:5px;'>Connective tissue</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'>Nucleus</td><td style='padding:5px;'>Bilobed (hidden by granules)</td><td style='padding:5px;'>Round, central</td></tr>\n<tr><td style='padding:5px;'>Granule contents</td><td style='padding:5px;'>Histamine, heparin, leukotrienes</td><td style='padding:5px;'>Histamine, heparin, leukotrienes</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'>Role</td><td style='padding:5px;'>Allergic reactions, anticoagulation</td><td style='padding:5px;'>Allergic reactions, inflammation</td></tr>\n</table>\n<br><em>Basophilia (elevated basophils) is classically associated with chronic myelogenous leukaemia (CML).</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Histamine and heparin, mediating allergic and inflammatory responses"
+    }
+  },
+  {
+    "type": "heading",
+ 
+    "heading": "Section 7: Histology of the Digestive System"
+  },
+  {
+    "type": "Question",
+    "name": "Question 35",
+    "topic": [
+      "Histology",
+      "Digestive System",
+      "GI Tract Layers"
+    ],
+    "Question": {
+      "content": "The general wall of the GI tract, from innermost to outermost, consists of:",
+      "type": "OBJ",
+      "options": [
+        "Serosa → Muscularis → Submucosa → Mucosa",
+        "Mucosa → Submucosa → Muscularis externa → Serosa",
+        "Mucosa → Muscularis → Submucosa → Adventitia",
+        "Epithelium → Lamina propria → Submucosa → Mucosa"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>The Four Layers of the GI Wall</h4>\n<p>The answer is <strong>B</strong>. This 4-layer plan is maintained throughout the GI tract from oesophagus to rectum — though each layer is modified at each region.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Layer by layer (inside → out):</strong><br><br>\n<strong>1. Mucosa</strong> (3 sub-layers):<br>\n• Epithelium — in contact with food/contents<br>\n• Lamina propria — loose CT with glands, lymphocytes, capillaries<br>\n• Muscularis mucosae — thin smooth muscle layer<br><br>\n<strong>2. Submucosa</strong> — dense irregular CT; larger blood/lymph vessels; contains <strong>Meissner's (submucosal) plexus</strong> — controls secretion<br><br>\n<strong>3. Muscularis externa</strong> — two smooth muscle layers (inner circular, outer longitudinal); between them is <strong>Auerbach's (myenteric) plexus</strong> — controls peristalsis<br><br>\n<strong>4. Serosa / Adventitia</strong> — outermost; serosa = peritoneum-covered (intraperitoneal organs); adventitia = just CT (retroperitoneal organs)\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Mucosa → Submucosa → Muscularis externa → Serosa"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 36",
+    "topic": [
+      "Histology",
+      "Digestive System",
+      "Stomach"
+    ],
+    "Question": {
+      "content": "Parietal cells of the gastric glands are responsible for secreting:",
+      "type": "OBJ",
+      "options": [
+        "Pepsinogen and intrinsic factor",
+        "Hydrochloric acid (HCl) and intrinsic factor",
+        "Mucus and bicarbonate",
+        "Gastrin and somatostatin"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Stomach Gland Cell Types</h4>\n<p>The answer is <strong>B</strong>. Parietal cells (also called oxyntic cells) are the most distinctive gastric cells — they are large, triangular, with an intensely eosinophilic (pink) cytoplasm packed with mitochondria (needed for the energy-intensive H⁺ pump).</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<table style='width:100%; border-collapse:collapse; font-size:0.85em;'>\n<tr style='background: var(--strongColor); color: white;'><th style='padding:5px;'>Cell</th><th style='padding:5px;'>Secretion</th><th style='padding:5px;'>Function</th></tr>\n<tr><td style='padding:5px;'><strong>Parietal (oxyntic) cells</strong></td><td style='padding:5px;'>HCl + Intrinsic factor</td><td style='padding:5px;'>HCl kills bacteria, activates pepsin; IF needed for B12 absorption</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'><strong>Chief (zymogenic) cells</strong></td><td style='padding:5px;'>Pepsinogen</td><td style='padding:5px;'>Activated to pepsin by HCl → digests proteins</td></tr>\n<tr><td style='padding:5px;'><strong>Mucous neck cells</strong></td><td style='padding:5px;'>Mucus</td><td style='padding:5px;'>Protects gastric epithelium from self-digestion</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'><strong>Enteroendocrine (G cells)</strong></td><td style='padding:5px;'>Gastrin</td><td style='padding:5px;'>Stimulates parietal cells to secrete more HCl</td></tr>\n</table>\n<br><em>Destruction of parietal cells (by H. pylori or autoimmune) → no intrinsic factor → cannot absorb B12 → pernicious anaemia.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Hydrochloric acid (HCl) and intrinsic factor"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 37",
+    "topic": [
+      "Histology",
+      "Digestive System",
+      "Small Intestine"
+    ],
+    "Question": {
+      "content": "The unique feature of the duodenum that distinguishes it from other parts of the small intestine is the presence of:",
+      "type": "OBJ",
+      "options": [
+        "Peyer's patches",
+        "Crypts of Lieberkühn only",
+        "Brunner's glands in the submucosa",
+        "Absence of villi"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Distinguishing the Three Parts of Small Intestine</h4>\n<p>The answer is <strong>Brunner's glands in the submucosa</strong>. These mucus-secreting glands are unique to the duodenum and protect its mucosa from the highly acidic chyme entering from the stomach.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<table style='width:100%; border-collapse:collapse; font-size:0.85em;'>\n<tr style='background: var(--strongColor); color: white;'><th style='padding:5px;'>Region</th><th style='padding:5px;'>Distinguishing Feature</th><th style='padding:5px;'>Why?</th></tr>\n<tr><td style='padding:5px;'><strong>Duodenum</strong></td><td style='padding:5px;'>Brunner's glands in submucosa</td><td style='padding:5px;'>Secrete alkaline mucus to neutralise acidic chyme from stomach</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'><strong>Jejunum</strong></td><td style='padding:5px;'>Longest, tallest villi; most prominent plicae circulares</td><td style='padding:5px;'>Maximum absorption surface area</td></tr>\n<tr><td style='padding:5px;'><strong>Ileum</strong></td><td style='padding:5px;'>Peyer's patches (lymphoid aggregates)</td><td style='padding:5px;'>Immune surveillance at terminal small intestine; absorbs B12 and bile salts</td></tr>\n</table>\n<br><em>All small intestine has: villi + crypts of Lieberkühn (intestinal glands) + goblet cells + Paneth cells (at base of crypts — secrete antimicrobial peptides defensins).</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Brunner's glands in the submucosa"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 38",
+    "topic": [
+      "Histology",
+      "Digestive System",
+      "Large Intestine"
+    ],
+    "Question": {
+      "content": "The large intestine can be distinguished from the small intestine histologically because the large intestine:",
+      "type": "OBJ",
+      "options": [
+        "Has more villi and less goblet cells",
+        "Has no villi, many goblet cells, and straight crypts",
+        "Contains Brunner's glands",
+        "Has Peyer's patches in its wall"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Large Intestine — Absorption Without Villi</h4>\n<p>The answer is <strong>B</strong>. The large intestine has NO villi — it is not primarily an absorbing organ. Its main jobs are water/electrolyte absorption and mucus production to lubricate faeces.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Large intestine histological features:</strong><br>\n• <strong>No villi</strong> — surface is flat (compared to the finger-like projections of small intestine)<br>\n• <strong>Abundant goblet cells</strong> — more than anywhere else; secrete copious mucus to lubricate faecal passage<br>\n• <strong>Straight, long crypts (Crypts of Lieberkühn)</strong> — extend deep into mucosa<br>\n• <strong>Taenia coli</strong> — three longitudinal bands of muscularis externa (instead of complete outer layer); creates the haustra (pouches)<br>\n• Simple columnar epithelium with colonocytes (absorb water/electrolytes) and goblet cells<br><br>\n<em>In ulcerative colitis: crypts are distorted, abscesses form in crypts, goblet cells are depleted — visible on biopsy.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Has no villi, many goblet cells, and straight crypts"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 39",
+    "topic": [
+      "Histology",
+      "Digestive System",
+      "Oesophagus"
+    ],
+    "Question": {
+      "content": "The oesophagus is lined by which epithelium, and why is this type of epithelium appropriate for this location?",
+      "type": "OBJ",
+      "options": [
+        "Simple columnar epithelium — for secretion of digestive enzymes",
+        "Pseudostratified columnar — for mucus production",
+        "Non-keratinised stratified squamous — provides protection against abrasion from food bolus",
+        "Transitional epithelium — allows distension"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Oesophageal Epithelium — Protection Over Absorption</h4>\n<p>The answer is <strong>C</strong>. The oesophagus is a muscular tube that propels food by peristalsis. Its lining must resist the mechanical abrasion of food boluses — thick stratified squamous epithelium is ideal because surface cells can be worn away and replaced from below without exposing deeper layers.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Clinical pearl — Barrett's oesophagus:</strong><br>\nChronic gastro-oesophageal reflux disease (GORD) exposes the lower oesophagus to acid. The normal squamous epithelium is replaced by simple columnar epithelium (similar to intestine) — a process called <em>metaplasia</em>. This is a pre-cancerous change → risk of oesophageal adenocarcinoma.<br><br>\n<strong>Oesophageal layers:</strong><br>\n• Mucosa: non-keratinised stratified squamous epithelium<br>\n• Submucosa: mucous glands (lubricate food)<br>\n• Muscularis externa: upper 1/3 = skeletal muscle; middle 1/3 = mixed; lower 1/3 = smooth muscle\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Non-keratinised stratified squamous — provides protection against abrasion from food bolus"
+    }
+  },
+  {
+    "type": "heading",
+ 
+    "heading": "Section 8: Respiratory Histology"
+  },
+  {
+    "type": "Question",
+    "name": "Question 40",
+    "topic": [
+      "Histology",
+      "Respiratory System",
+      "Respiratory Epithelium"
+    ],
+    "Question": {
+      "content": "The lining of the trachea and bronchi is characterised by which type of epithelium?",
+      "type": "OBJ",
+      "options": [
+        "Simple squamous",
+        "Stratified squamous",
+        "Ciliated pseudostratified columnar with goblet cells",
+        "Transitional"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Respiratory Epithelium — The Mucociliary Escalator</h4>\n<p>The answer is <strong>Ciliated pseudostratified columnar with goblet cells</strong> — this is so characteristic it is simply called <strong>\"respiratory epithelium.\"</strong></p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>How the mucociliary escalator works:</strong><br>\n1. <strong>Goblet cells</strong> secrete mucus onto the surface — traps dust, bacteria, pollen<br>\n2. <strong>Ciliated cells</strong> beat rhythmically (coordinated wave) — move the mucus blanket <em>upward</em> toward the pharynx<br>\n3. Trapped particles are swallowed or expelled<br><br>\n<strong style='color: var(--strongColor);'>How the airway epithelium changes as you go deeper:</strong><br>\n• Trachea & bronchi: Pseudostratified ciliated columnar + goblet cells + cartilage rings (trachea) or plates (bronchi)<br>\n• Bronchioles: Simple ciliated columnar; <strong>no cartilage</strong>; goblet cells replaced by <strong>Club cells (Clara cells)</strong> which secrete surfactant-like proteins<br>\n• Alveoli: Simple squamous (Type I & II pneumocytes) — ultra-thin for gas exchange<br><br>\n<em>Smokers lose cilia → mucus accumulates → chronic cough to clear it (smoker's cough).</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Ciliated pseudostratified columnar with goblet cells"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 41",
+    "topic": [
+      "Histology",
+      "Respiratory System",
+      "Alveoli"
+    ],
+    "Question": {
+      "content": "Type II pneumocytes in the alveolus differ from Type I pneumocytes in that they:",
+      "type": "OBJ",
+      "options": [
+        "Form the thin wall for gas exchange",
+        "Are squamous cells covering most of the alveolar surface",
+        "Are cuboidal cells that produce surfactant and can differentiate into Type I cells",
+        "Are macrophages that phagocytose inhaled particles"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Alveolar Cell Types</h4>\n<p>The answer is <strong>C</strong>. Type II pneumocytes are the \"caretakers\" of the alveolus — they make surfactant and replenish Type I cells when damaged.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<table style='width:100%; border-collapse:collapse; font-size:0.85em;'>\n<tr style='background: var(--strongColor); color: white;'><th style='padding:5px;'>Cell</th><th style='padding:5px;'>% alveolar surface</th><th style='padding:5px;'>Shape</th><th style='padding:5px;'>Function</th></tr>\n<tr><td style='padding:5px;'><strong>Type I pneumocyte</strong></td><td style='padding:5px;'>~95%</td><td style='padding:5px;'>Flat squamous</td><td style='padding:5px;'>Ultra-thin wall for gas exchange; part of blood-air barrier</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'><strong>Type II pneumocyte</strong></td><td style='padding:5px;'>~5%</td><td style='padding:5px;'>Cuboidal; sits in corners</td><td style='padding:5px;'>Produces <strong>surfactant</strong>; stem cell for Type I</td></tr>\n<tr><td style='padding:5px;'><strong>Alveolar macrophage</strong></td><td style='padding:5px;'>Wanders surface</td><td style='padding:5px;'>Amoeboid</td><td style='padding:5px;'>Phagocytose inhaled particles and bacteria; \"dust cells\"</td></tr>\n</table>\n<br><em>Surfactant (mainly DPPC) reduces surface tension in alveoli → prevents collapse on expiration. Premature babies lack surfactant → Respiratory Distress Syndrome (RDS, hyaline membrane disease).</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Are cuboidal cells that produce surfactant and can differentiate into Type I cells"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 42",
+    "topic": [
+      "Histology",
+      "Respiratory System",
+      "Airways"
+    ],
+    "Question": {
+      "content": "Bronchioles differ from bronchi histologically because bronchioles:",
+      "type": "OBJ",
+      "options": [
+        "Have cartilage plates and goblet cells",
+        "Are lined by stratified squamous epithelium",
+        "Lack cartilage and have simple ciliated columnar or cuboidal epithelium",
+        "Are only found in the left lung"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Bronchi vs Bronchioles</h4>\n<p>The answer is <strong>C</strong>. The disappearance of cartilage is the defining histological marker of the transition from bronchus to bronchiole.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Airway comparison:</strong><br>\n<table style='width:100%; border-collapse:collapse; font-size:0.85em;'>\n<tr style='background: var(--strongColor); color: white;'><th style='padding:5px;'>Structure</th><th style='padding:5px;'>Cartilage</th><th style='padding:5px;'>Epithelium</th><th style='padding:5px;'>Special cells</th></tr>\n<tr><td style='padding:5px;'>Trachea</td><td style='padding:5px;'>C-shaped rings</td><td style='padding:5px;'>Pseudostratified columnar</td><td style='padding:5px;'>Goblet cells</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'>Bronchi</td><td style='padding:5px;'>Irregular plates</td><td style='padding:5px;'>Pseudostratified columnar</td><td style='padding:5px;'>Goblet cells</td></tr>\n<tr><td style='padding:5px;'>Bronchioles</td><td style='padding:5px;'><strong>None</strong></td><td style='padding:5px;'>Simple columnar/cuboidal</td><td style='padding:5px;'>Club cells (surfactant-like proteins)</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'>Alveoli</td><td style='padding:5px;'>None</td><td style='padding:5px;'>Simple squamous</td><td style='padding:5px;'>Type I & II pneumocytes</td></tr>\n</table>\n<br><em>In asthma: bronchiole smooth muscle spasms → airway narrowing → wheeze. Salbutamol (β2-agonist) relaxes bronchiole smooth muscle.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Lack cartilage and have simple ciliated columnar or cuboidal epithelium"
+    }
+  },
+  {
+    "type": "heading",
+ 
+    "heading": "Section 9: Histology of the Urinary System"
+  },
+  {
+    "type": "Question",
+    "name": "Question 43",
+    "topic": [
+      "Histology",
+      "Urinary System",
+      "Kidney",
+      "Nephron"
+    ],
+    "Question": {
+      "content": "The proximal convoluted tubule (PCT) of the nephron can be distinguished from the distal convoluted tubule (DCT) in histological sections because the PCT:",
+      "type": "OBJ",
+      "options": [
+        "Has a smaller lumen and lacks a brush border",
+        "Has a large, clearly defined lumen with no brush border",
+        "Has a brush border (microvilli) and a smaller, irregular lumen",
+        "Is lined by transitional epithelium"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>PCT vs DCT — Histological Differences</h4>\n<p>The answer is <strong>C</strong>. The PCT must reabsorb enormous amounts of material (65–70% of filtrate) — its brush border of microvilli dramatically increases surface area for reabsorption.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<table style='width:100%; border-collapse:collapse; font-size:0.85em;'>\n<tr style='background: var(--strongColor); color: white;'><th style='padding:5px;'>Feature</th><th style='padding:5px;'>PCT</th><th style='padding:5px;'>DCT</th></tr>\n<tr><td style='padding:5px;'>Brush border</td><td style='padding:5px;'><strong>Present</strong> (prominent)</td><td style='padding:5px;'>Absent or minimal</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'>Lumen</td><td style='padding:5px;'>Narrow, irregular (microvilli encroach)</td><td style='padding:5px;'>Wide, clear</td></tr>\n<tr><td style='padding:5px;'>Cell height</td><td style='padding:5px;'>Tall columnar; eosinophilic cytoplasm</td><td style='padding:5px;'>Smaller cuboidal</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'>Number per field</td><td style='padding:5px;'>More (longer)</td><td style='padding:5px;'>Fewer (shorter)</td></tr>\n<tr><td style='padding:5px;'>Function</td><td style='padding:5px;'>Reabsorb Na⁺, glucose, AA, water (65–70%)</td><td style='padding:5px;'>Fine-tune Na⁺/K⁺ (aldosterone)</td></tr>\n</table>\n<br><em>The glomerulus nearby is the best landmark. PCT is the tortuous tubule immediately adjacent to the glomerulus from which it originates.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Has a brush border (microvilli) and a smaller, irregular lumen"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 44",
+    "topic": [
+      "Histology",
+      "Urinary System",
+      "Transitional Epithelium"
+    ],
+    "Question": {
+      "content": "Transitional epithelium (urothelium) lining the bladder is specially adapted to:",
+      "type": "OBJ",
+      "options": [
+        "Absorb water from urine",
+        "Secrete digestive enzymes",
+        "Allow distension when the bladder fills, changing from thick to thin",
+        "Produce mucus to neutralise acid"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Transitional Epithelium — Built to Stretch</h4>\n<p>The answer is <strong>C</strong>. Transitional epithelium is found exclusively in the urinary system (renal pelvis, ureters, bladder, proximal urethra). Its name comes from its ability to <em>transition</em> between states as the organ fills.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Empty bladder vs Full bladder:</strong><br>\n• <strong>Empty</strong>: Epithelium appears <em>thick</em> — 5–6 cell layers; surface cells are large, dome-shaped (<strong>umbrella cells</strong> or facet cells); folded, scalloped appearance<br>\n• <strong>Full</strong>: Epithelium stretched to <em>2–3 cell layers</em>; cells flattened and squamous-like; surface umbrella cells flatten out<br><br>\n<strong>Unique features of transitional epithelium:</strong><br>\n• <em>Umbrella cells</em> — large surface cells; their apical membrane has fusiform vesicles that unfold when stretched<br>\n• <em>Impermeable</em> to urine — tight junctions prevent urine from leaking back into bloodstream<br><br>\n<em>Transitional cell carcinoma (TCC) = most common bladder cancer; arises from urothelium. Painless haematuria is the classic presentation.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Allow distension when the bladder fills, changing from thick to thin"
+    }
+  },
+  {
+    "type": "heading",
+ 
+    "heading": "Section 10: Integumentary System"
+  },
+  {
+    "type": "Question",
+    "name": "Question 45",
+    "topic": [
+      "Histology",
+      "Skin",
+      "Epidermis",
+      "Layers"
+    ],
+    "Question": {
+      "content": "The layers of the epidermis, from deepest (basal) to most superficial, are correctly listed as:",
+      "type": "OBJ",
+      "options": [
+        "Corneum → Granulosum → Spinosum → Basale",
+        "Basale → Spinosum → Granulosum → Lucidum → Corneum",
+        "Basale → Granulosum → Spinosum → Corneum",
+        "Papillary → Reticular → Basale → Corneum"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>The Epidermal Layers — Keratinisation from Bottom to Top</h4>\n<p>The answer is <strong>B</strong>. The epidermis is a stratified squamous epithelium that undergoes progressive keratinisation as cells move from the basal layer to the surface.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>The 5 layers (thick skin, e.g. palm/sole) — deep to superficial:</strong><br><br>\n1. <strong>Stratum basale</strong> (germinativum) — single layer of dividing stem cells; contains melanocytes (produce melanin pigment); columnar/cuboidal keratinocytes<br>\n2. <strong>Stratum spinosum</strong> — several layers; cells connected by desmosomes (look spiky = \"spiny\"); start synthesising keratin<br>\n3. <strong>Stratum granulosum</strong> — 3–5 layers; cells contain dark <em>keratohyalin granules</em> (precursor to keratin) and lamellar granules (lipid-rich — form waterproof barrier)<br>\n4. <strong>Stratum lucidum</strong> — only in thick skin (palms, soles); pale, homogeneous; dead cells<br>\n5. <strong>Stratum corneum</strong> — outermost; many layers of dead, anucleate, keratin-filled cells (squames) → waterproof barrier; constantly shed<br><br>\n<em>Memory trick: \"<strong>B</strong>ad <strong>S</strong>kin <strong>G</strong>ives <strong>L</strong>arge <strong>C</strong>ysts\" — Basale, Spinosum, Granulosum, Lucidum, Corneum.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Basale → Spinosum → Granulosum → Lucidum → Corneum"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 46",
+    "topic": [
+      "Histology",
+      "Skin",
+      "Dermis"
+    ],
+    "Question": {
+      "content": "The dermis of the skin consists of two layers. The superficial layer projecting into the epidermis is the:",
+      "type": "OBJ",
+      "options": [
+        "Reticular layer",
+        "Hypodermis",
+        "Stratum basale",
+        "Papillary layer"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Dermis — The Connective Tissue Backbone of Skin</h4>\n<p>The answer is <strong>Papillary layer</strong>. The word \"papillary\" refers to the dermal papillae — finger-like projections that interdigitate with downward projections of the epidermis (epidermal ridges).</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Two layers of dermis:</strong><br><br>\n<strong>Papillary layer:</strong><br>\n• Thin; loose areolar CT<br>\n• Sends papillae into epidermis → increase surface area for nutrient diffusion (epidermis is avascular)<br>\n• Contains capillaries (nourish epidermis), sensory nerve endings (Meissner's corpuscles — touch)<br><br>\n<strong>Reticular layer:</strong><br>\n• Thick; dense irregular CT (Type I collagen + elastic fibres)<br>\n• Provides skin's strength and elasticity<br>\n• Contains: sweat glands, hair follicles, sebaceous glands, larger blood vessels<br>\n• Pacinian corpuscles (deep pressure sensation)<br><br>\n<em>Below dermis = hypodermis (subcutaneous tissue) = adipose tissue + loose CT — insulation and energy storage. Not technically part of skin.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Papillary layer"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 47",
+    "topic": [
+      "Histology",
+      "Skin",
+      "Glands",
+      "Hair"
+    ],
+    "Question": {
+      "content": "Sebaceous glands are classified as holocrine glands because:",
+      "type": "OBJ",
+      "options": [
+        "They secrete by exocytosis without any cell damage",
+        "They lose their apical cytoplasm during secretion",
+        "The entire secretory cell breaks down and becomes the secretion (sebum)",
+        "They only secrete during puberty"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Holocrine Secretion — Sacrifice for Sebum</h4>\n<p>The answer is <strong>C</strong>. In holocrine secretion, the secretory cell accumulates its product, then the entire cell ruptures and disintegrates — the cell <em>is</em> the secretion.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Three secretory mechanisms compared:</strong><br><br>\n• <strong>Merocrine</strong> — secretion by exocytosis; cell is intact; most common (e.g. salivary glands, mucus glands, sweat glands)<br>\n• <strong>Apocrine</strong> — apical cytoplasm buds off with secretion; cell partially loses cytoplasm but survives (e.g. mammary glands, apocrine sweat glands in axilla/groin)<br>\n• <strong>Holocrine</strong> — entire cell disintegrates; sebaceous glands only<br><br>\n<strong>Sebum functions:</strong> Lubricates and waterproofs hair and skin; has antimicrobial properties.<br><br>\n<em>Acne: Sebaceous gland blockage → Propionibacterium acnes overgrowth → inflammation → pimples. Sebaceous glands are most abundant on face and scalp.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The entire secretory cell breaks down and becomes the secretion (sebum)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 48",
+    "topic": [
+      "Histology",
+      "Skin",
+      "Melanocytes"
+    ],
+    "Question": {
+      "content": "Melanocytes in the skin are located in the stratum basale and produce melanin pigment. They transfer melanin to surrounding keratinocytes via:",
+      "type": "OBJ",
+      "options": [
+        "Gap junctions",
+        "Tight junctions",
+        "Long cytoplasmic processes (dendritic processes) that contact keratinocytes",
+        "Exocytosis into the blood"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Melanocytes — The Skin's Pigment Factories</h4>\n<p>The answer is <strong>C</strong>. Melanocytes are dendritic cells — they have long branching processes that reach multiple keratinocytes. Melanin is packaged in <strong>melanosomes</strong> and transferred via these processes.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Melanin production pathway:</strong><br>\n1. Melanocyte in stratum basale synthesises melanin from tyrosine (tyrosinase enzyme)<br>\n2. Melanin packed into melanosomes<br>\n3. Melanosomes transferred through dendritic processes → tips of processes pinched off → taken up by keratinocytes<br>\n4. In keratinocytes: melanosomes accumulate over the nucleus like an <em>umbrella</em> → absorb UV radiation → protect DNA from UV damage<br><br>\n<strong>Key fact:</strong> All humans have approximately the same NUMBER of melanocytes. Skin colour differences are due to different amounts and types of melanin produced.<br><br>\n<em>Melanoma — malignant tumour of melanocytes. UV radiation is the main risk factor; characterised by irregular shape, multiple colours, large size, asymmetry.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Long cytoplasmic processes (dendritic processes) that contact keratinocytes"
+    }
+  },
+  {
+    "type": "heading",
+ 
+    "heading": "Section 11: Clinical Applications"
+  },
+  {
+    "type": "Question",
+    "name": "Question 49",
+    "topic": [
+      "Histology",
+      "Clinical",
+      "Wound Healing",
+      "Fibroblasts"
+    ],
+    "Question": {
+      "content": "During wound healing, the fibroblast plays a central role. In the correct sequence of healing, fibroblasts:",
+      "type": "OBJ",
+      "options": [
+        "Are the first cells to arrive at the wound site",
+        "Migrate into the clot, proliferate, and synthesise new collagen to form granulation tissue, then contract to close the wound",
+        "Only produce antibodies to prevent infection",
+        "Directly convert into new epithelial cells to resurface the wound"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Wound Healing — A Carefully Orchestrated Process</h4>\n<p>The answer is <strong>B</strong>. Fibroblasts are the key cells of the proliferative and remodelling phases of healing.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Phases of wound healing:</strong><br><br>\n<strong>Phase 1 — Haemostasis (minutes to hours):</strong><br>\nPlatelet plug + fibrin clot forms; stops bleeding<br><br>\n<strong>Phase 2 — Inflammation (hours to days):</strong><br>\nNeutrophils arrive first → clean up bacteria and debris<br>\nMacrophages follow → phagocytose dead cells; release growth factors (PDGF, TGF-β) that recruit fibroblasts<br><br>\n<strong>Phase 3 — Proliferation / Granulation (days to weeks):</strong><br>\n• Fibroblasts migrate in → proliferate → synthesise <em>Type III collagen</em> and ground substance<br>\n• Angiogenesis — new capillaries grow into wound<br>\n• This combination = <strong>granulation tissue</strong> (red, granular appearance; bleeds easily)<br>\n• Some fibroblasts become <em>myofibroblasts</em> (contain smooth muscle actin) → contract wound edges<br>\n• Epithelial cells migrate from wound edges to resurface (re-epithelialisation)<br><br>\n<strong>Phase 4 — Remodelling (weeks to years):</strong><br>\nType III collagen gradually replaced by stronger Type I collagen; scar matures and strengthens (but never reaches 100% original strength)\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Migrate into the clot, proliferate, and synthesise new collagen to form granulation tissue, then contract to close the wound"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 50",
+    "topic": [
+      "Histology",
+      "Clinical",
+      "Carcinoma",
+      "Sarcoma"
+    ],
+    "Question": {
+      "content": "The histological difference between a carcinoma and a sarcoma is that:",
+      "type": "OBJ",
+      "options": [
+        "Carcinomas arise from connective tissue; sarcomas arise from epithelium",
+        "Carcinomas arise from epithelial tissue; sarcomas arise from mesenchymal (connective) tissue",
+        "Both arise from the same tissue type but in different organs",
+        "Carcinomas are always benign; sarcomas are always malignant"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Tumour Classification by Tissue of Origin</h4>\n<p>The answer is <strong>B</strong>. The suffix helps classify tumours by their tissue of origin and behaviour.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<table style='width:100%; border-collapse:collapse; font-size:0.85em;'>\n<tr style='background: var(--strongColor); color: white;'><th style='padding:5px;'>Tumour type</th><th style='padding:5px;'>Tissue of origin</th><th style='padding:5px;'>Examples</th></tr>\n<tr><td style='padding:5px;'><strong>Carcinoma</strong></td><td style='padding:5px;'>Epithelium</td><td style='padding:5px;'>Adenocarcinoma (glandular epithelium), squamous cell carcinoma, transitional cell carcinoma</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'><strong>Sarcoma</strong></td><td style='padding:5px;'>Mesenchymal (connective tissue)</td><td style='padding:5px;'>Osteosarcoma (bone), fibrosarcoma (fibroblasts), leiomyosarcoma (smooth muscle)</td></tr>\n<tr><td style='padding:5px;'><strong>Lymphoma</strong></td><td style='padding:5px;'>Lymphoid tissue</td><td style='padding:5px;'>Hodgkin's, non-Hodgkin's lymphoma</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'><strong>Leukaemia</strong></td><td style='padding:5px;'>Blood-forming cells</td><td style='padding:5px;'>AML, CML, ALL, CLL</td></tr>\n</table>\n<br><em>On histology: Carcinomas show clusters of epithelial cells with little stroma; sarcomas show spindle-shaped cells in abundant connective tissue stroma.</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Carcinomas arise from epithelial tissue; sarcomas arise from mesenchymal (connective) tissue"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 51",
+    "topic": [
+      "Histology",
+      "Clinical",
+      "Inflammation",
+      "Mast Cells"
+    ],
+    "Question": {
+      "content": "In an H&E-stained section of inflamed tissue, which of the following histological findings would indicate an acute inflammatory response?",
+      "type": "OBJ",
+      "options": [
+        "Abundant plasma cells and lymphocytes in the tissue",
+        "Dense infiltration of neutrophils (polymorphonuclear cells) in the tissue",
+        "Granuloma formation with giant cells",
+        "Extensive fibroblast proliferation and collagen deposition"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Acute vs Chronic Inflammation — Histological Distinction</h4>\n<p>The answer is <strong>B</strong>. Neutrophils are the hallmark of <em>acute</em> inflammation. Their characteristic multilobed nucleus makes them easy to identify in tissue sections.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<table style='width:100%; border-collapse:collapse; font-size:0.85em;'>\n<tr style='background: var(--strongColor); color: white;'><th style='padding:5px;'>Type</th><th style='padding:5px;'>Key cells seen on histology</th><th style='padding:5px;'>Causes/Examples</th></tr>\n<tr><td style='padding:5px;'><strong>Acute inflammation</strong></td><td style='padding:5px;'>Neutrophils; vascular congestion; oedema</td><td style='padding:5px;'>Bacterial infection, tissue injury (hours–days)</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'><strong>Chronic inflammation</strong></td><td style='padding:5px;'>Lymphocytes, plasma cells, macrophages; fibrosis</td><td style='padding:5px;'>Persistent infections, autoimmune (weeks–years)</td></tr>\n<tr><td style='padding:5px;'><strong>Granulomatous inflammation</strong></td><td style='padding:5px;'>Granulomas — aggregates of macrophages (epithelioid macrophages) + giant cells + lymphocytes</td><td style='padding:5px;'>TB (Mycobacterium), Crohn's, sarcoidosis</td></tr>\n</table>\n<br><em>Eosinophil infiltration suggests parasitic infection or allergy. Plasma cell infiltration suggests chronic antigenic stimulation (e.g. H. pylori gastritis).</em>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Dense infiltration of neutrophils (polymorphonuclear cells) in the tissue"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 52",
+    "topic": [
+      "Histology",
+      "Clinical",
+      "Histopathology",
+      "Blood Smear"
+    ],
+    "Question": {
+      "content": "On a Giemsa-stained blood smear from a patient with a bacterial infection, which finding would you expect?",
+      "type": "OBJ",
+      "options": [
+        "Increased eosinophils",
+        "Increased basophils",
+        "Increased neutrophils (neutrophilia) with possible band forms (left shift)",
+        "Decreased lymphocytes"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Reading a Blood Smear Clinically</h4>\n<p>The answer is <strong>C</strong>. In bacterial infection, the bone marrow releases neutrophils rapidly. When demand is very high, immature neutrophils (band cells) are released — this is called a <strong>\"left shift\"</strong> (referring to the left side of the maturation diagram).</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Blood smear findings and their clinical meaning:</strong><br><br>\n<table style='width:100%; border-collapse:collapse; font-size:0.85em;'>\n<tr style='background: var(--strongColor); color: white;'><th style='padding:5px;'>Finding</th><th style='padding:5px;'>Clinical association</th></tr>\n<tr><td style='padding:5px;'>↑ Neutrophils (neutrophilia) + band cells</td><td style='padding:5px;'>Bacterial infection, acute inflammation</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'>↑ Lymphocytes (lymphocytosis)</td><td style='padding:5px;'>Viral infection (e.g. EBV, CMV)</td></tr>\n<tr><td style='padding:5px;'>↑ Eosinophils (eosinophilia)</td><td style='padding:5px;'>Parasitic infection, allergy, asthma</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'>Hypochromic microcytic RBCs</td><td style='padding:5px;'>Iron deficiency anaemia</td></tr>\n<tr><td style='padding:5px;'>Macrocytic RBCs (large, oval)</td><td style='padding:5px;'>B12/folate deficiency (megaloblastic)</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'>Sickle-shaped RBCs</td><td style='padding:5px;'>Sickle cell anaemia</td></tr>\n<tr><td style='padding:5px;'>Hypersegmented neutrophils (5+ lobes)</td><td style='padding:5px;'>B12/folate deficiency</td></tr>\n</table>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Increased neutrophils (neutrophilia) with possible band forms (left shift)"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 53",
+    "topic": [
+      "Histology",
+      "Clinical",
+      "Special Stains"
+    ],
+    "Question": {
+      "content": "The Periodic Acid-Schiff (PAS) stain is used in histology to demonstrate:",
+      "type": "OBJ",
+      "options": [
+        "Myelin sheaths in nervous tissue",
+        "Reticular fibres in connective tissue",
+        "Glycogen, glycoproteins, and mucus — which stain magenta/purple",
+        "Elastic fibres in blood vessel walls"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Special Stains — Beyond H&E</h4>\n<p>The answer is <strong>C</strong>. PAS oxidises the hydroxyl groups of polysaccharides into aldehydes, which then react with Schiff reagent to produce a bright <strong>magenta/purple</strong> colour.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Common special stains in histology:</strong><br><br>\n<table style='width:100%; border-collapse:collapse; font-size:0.85em;'>\n<tr style='background: var(--strongColor); color: white;'><th style='padding:5px;'>Stain</th><th style='padding:5px;'>What it shows</th><th style='padding:5px;'>Colour</th></tr>\n<tr><td style='padding:5px;'><strong>PAS</strong></td><td style='padding:5px;'>Glycogen, mucus, basement membranes, fungi</td><td style='padding:5px;'>Magenta/purple</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'><strong>Silver stain</strong></td><td style='padding:5px;'>Reticular fibres, nerve axons, Helicobacter pylori</td><td style='padding:5px;'>Black</td></tr>\n<tr><td style='padding:5px;'><strong>Masson's trichrome</strong></td><td style='padding:5px;'>Collagen (fibrosis)</td><td style='padding:5px;'>Blue/green (collagen), red (muscle)</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'><strong>Weigert/van Gieson</strong></td><td style='padding:5px;'>Elastic fibres</td><td style='padding:5px;'>Black (elastic)</td></tr>\n<tr><td style='padding:5px;'><strong>Congo red</strong></td><td style='padding:5px;'>Amyloid</td><td style='padding:5px;'>Apple-green birefringence under polarised light</td></tr>\n<tr style='background: var(--preset-bg-color);'><td style='padding:5px;'><strong>Ziehl-Neelsen</strong></td><td style='padding:5px;'>Acid-fast bacteria (TB, leprosy)</td><td style='padding:5px;'>Red bacteria on blue background</td></tr>\n</table>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Glycogen, glycoproteins, and mucus — which stain magenta/purple"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 54",
+    "topic": [
+      "Histology",
+      "Clinical",
+      "Metaplasia"
+    ],
+    "Question": {
+      "content": "Metaplasia is defined as:",
+      "type": "OBJ",
+      "options": [
+        "The death of cells due to ischaemia",
+        "Increased cell size (hypertrophy)",
+        "Reversible replacement of one differentiated cell type by another, often in response to chronic irritation",
+        "Uncontrolled cell proliferation forming a tumour"
+      ]
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n<h4 style='color: var(--strongColor); margin-top: 0;'>Metaplasia — An Adaptive (but Risky) Change</h4>\n<p>The answer is <strong>C</strong>. Metaplasia is a <em>reversible</em> adaptive response where one mature cell type is replaced by another — better suited to withstand the new hostile environment. However, it carries a risk of progressing to cancer if the stimulus persists.</p>\n<div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px; margin-top: 10px;'>\n<strong style='color: var(--strongColor);'>Classic examples of metaplasia:</strong><br><br>\n• <strong>Barrett's oesophagus</strong>: Normal stratified squamous → intestinal-type columnar epithelium (from chronic acid reflux) → risk of adenocarcinoma<br>\n• <strong>Smoker's bronchi</strong>: Normal ciliated pseudostratified columnar → stratified squamous (squamous metaplasia) → risk of squamous cell carcinoma<br>\n• <strong>Cervical ectropion</strong>: Transformation zone — columnar → squamous metaplasia<br><br>\n<strong>Sequence of dangerous changes:</strong><br>\nNormal → <strong>Metaplasia</strong> (adaptive, reversible) → <strong>Dysplasia</strong> (disordered growth, pre-cancerous) → <strong>Carcinoma in situ</strong> → <strong>Invasive carcinoma</strong>\n</div>\n</div>"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Reversible replacement of one differentiated cell type by another, often in response to chronic irritation"
+    }
+  }
+]
